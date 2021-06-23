@@ -1,0 +1,65 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section .calculadora_imc{
+    width: 400px;
+    border-radius: 10px;
+    background-color: #FFB600;
+    margin: 10% auto;
+    padding: 20px 0;
+}
+section .calculadora_imc h1{
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 4px solid #000;
+    margin-bottom: 25px;
+}
+section .calculadora_imc .form{
+    padding: 0 20px;
+}
+section .calculadora_imc .form ul li{
+    margin-bottom: 10px;
+}
+section .calculadora_imc .form ul li label{
+    font-size: 22px;
+    width: 65px;
+    float: left;
+}
+section .calculadora_imc .form ul li input{
+    padding: 4px;
+}
+section .calculadora_imc .form ul li button{
+    padding: 8px;
+    width: 100%;
+    font-size: 20px;
+    background-color: #000;
+    border: none;
+    color: #D29F41;
+    border-radius: 5px;
+}
+section .calculadora_imc .box{
+    padding: 0 20px;
+    margin-top: 30px;
+}
+section .calculadora_imc .result{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #000;
+    border-radius: 5px;
+    height: 150px;
+    position: relative;
+}
+section .calculadora_imc .result p{
+    margin: 0;
+    color: #D29F41;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 10px;
+}
